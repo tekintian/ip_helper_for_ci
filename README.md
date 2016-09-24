@@ -25,14 +25,17 @@ $autoload['helper'] = array('ip');
  getIpLocation() 不传API服务商,将默认调用淘宝API
  
 
-调用淘宝API查询IP地理位置
+##调用淘宝API查询IP地理位置
 <?php echo getIpLocation('taobao'); ?>
 
-调用新浪API查询IP地理位置
+##调用新浪API查询IP地理位置
 <?php echo getIpLocation('sina'); ?>
 
 
-调用pconline API查询IP地理位置
+##调用pconline API查询IP地理位置
 <?php echo getIpLocation('pconline'); ?>
 
 
+#支持
+Author: Tekin
+Web: http://dev.yunnan.ws/
