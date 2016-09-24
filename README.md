@@ -1,6 +1,8 @@
-# ip_helper_for_ci
+# PHP 获取用户地理位置 CI 辅助函数
 get userip, ip location helper for CI,  Support ci2, ci3, and ci4 PHP获取用户真实IP地址, 地理位置的辅助函数.
-支持查询 淘宝, 新浪, pconline IP数据库信息, 可以随意却换.
+支持查询 淘宝, 新浪, pconline IP数据库信息, 可以随意却换.  
+
+完全松耦合, 可用于CI,也可以用于其他任何的PHP系统中, 直接将 ip_helper.php 文件拷贝到你的系统中, 加载后即可使用 , 使用方法同CI如下
 
 #使用方法
 将 ip_helper.php 下载后放到CI的 application 目录中的 helpers文件夹 , 如  application\helpers\ip_helper.php
